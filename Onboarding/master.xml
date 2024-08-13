@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Master Suite">
+	
+	<listeners>
+		<listener class-name="utilities.ExtentReportManager"/>
+	</listeners>
+	
+  <test thread-count="5" name="Test">
+	
+	<parameter name="os" value="windows" />
+	<parameter name="browser" value="chrome"/>
+	
+	<!--Using my mobile number 9284313462 and DOB: 01-01-1996  US:TEST01001 Pass:Test@123-->
+    <!-- For automation trial 9111111111 and DOB:01-01-1999 -->
+    <classes>
+      <class name="testCases.TC_001_AccountRegistrationTest"/> 
+      <class name="testCases.TC_002_AccountRegistrationTest1"/> 
+      <class name="testCases.Tc_003_SetUsernamePassword"/>
+     <!-- <class name="testCases.TC_004_Login"/>-->
+      <class name="testCases.TC_005_FillLoanRequirementDetails"/>
+      <class name="testCases.TC_006_UplaodDocManually"/>
+      <class name="testCases.TC_007_FillPermanentAddress"/>
+      <class name="testCases.TC_008_FillAdditionalInfo"/>
+      <class name="testCases.TC_009_EmploymentInformationTest"/>
+      
+      <!--<class name="testCases."/>-->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

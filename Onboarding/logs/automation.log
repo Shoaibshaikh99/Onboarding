@@ -1,0 +1,235 @@
+2024-08-10 12:19:14 INFO  Utils:112 - [TestNG] Running:
+  E:\Automation Workspace\Onboarding\master.xml
+
+2024-08-10 12:19:18 INFO  TC_001_AccountRegistrationTest:16 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-08-10 12:19:43 INFO  TC_001_AccountRegistrationTest:24 - *** Mobile Number Verified Successfully
+2024-08-10 12:19:51 INFO  TC_001_AccountRegistrationTest:26 - *** Mobile Number Verified Successfully
+2024-08-10 12:19:54 INFO  TC_001_AccountRegistrationTest:35 - *** Page Title Verified Successfully
+2024-08-10 12:19:54 INFO  TC_001_AccountRegistrationTest:43 - ***** Finished TC_001_AccountRegistrationTest *****
+2024-08-10 12:20:21 INFO  TC_005_FillLoanRequirementDetails:14 -  Starting TC_004_FillLoanRequirementDetails 
+2024-08-10 12:20:36 ERROR TC_005_FillLoanRequirementDetails:33 - Test Failed: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Home Loan')]"}
+  (Session info: chrome=127.0.6533.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa0269e840d30cc2c75b8d27003d71d7, findElement {using=xpath, value=//div[contains(text(),'Home Loan')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\91928\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:1613}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:1613/devtool..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fa0269e840d30cc2c75b8d27003d71d7
+2024-08-10 12:20:45 ERROR TC_006_UplaodDocManually:34 - Test FailedError communicating with the remote browser. It may have died.
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa0269e840d30cc2c75b8d27003d71d7, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\91928\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:1613}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:1613/devtool..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fa0269e840d30cc2c75b8d27003d71d7
+2024-08-10 12:21:08 INFO  Utils:112 - [TestNG] Running:
+  E:\Automation Workspace\Onboarding\master.xml
+
+2024-08-10 12:21:10 INFO  TC_001_AccountRegistrationTest:16 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-08-10 12:21:36 INFO  TC_001_AccountRegistrationTest:24 - *** Mobile Number Verified Successfully
+2024-08-10 12:21:44 INFO  TC_001_AccountRegistrationTest:26 - *** Mobile Number Verified Successfully
+2024-08-10 12:21:47 INFO  TC_001_AccountRegistrationTest:35 - *** Page Title Verified Successfully
+2024-08-10 12:21:47 INFO  TC_001_AccountRegistrationTest:43 - ***** Finished TC_001_AccountRegistrationTest *****
+2024-08-10 12:22:04 INFO  TC_005_FillLoanRequirementDetails:14 -  Starting TC_004_FillLoanRequirementDetails 
+2024-08-10 12:22:21 ERROR TC_005_FillLoanRequirementDetails:33 - Test Failed: element click intercepted: Element <a data-link="" href="#" class="">...</a> is not clickable at point (1028, 556). Other element would receive the click: <div data-container="" class="full-screen-loader-wrapper">...</div>
+  (Session info: chrome=127.0.6533.100)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [83c7d4a5d9b53af7c4e4b07da821481a, clickElement {id=f.98D99665CBEA70EB4AB02A3E55D50571.d.EBC529568542ADF668000ED6E0EB3FFD.e.218}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\91928\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:1962}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:1962/devtool..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (83c7d4a5d9b53af7c4e4b07da821481a)] -> xpath: //div[@class='pagination d-none d-lg-flex']//div[@class='next-highlight']//a[@href='#']]
+Session ID: 83c7d4a5d9b53af7c4e4b07da821481a
+2024-08-10 12:22:35 ERROR TC_006_UplaodDocManually:34 - Test Failedno such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Verify Manually']"}
+  (Session info: chrome=127.0.6533.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [83c7d4a5d9b53af7c4e4b07da821481a, findElement {value=//span[normalize-space()='Verify Manually'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\91928\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:1962}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:1962/devtool..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 83c7d4a5d9b53af7c4e4b07da821481a
+2024-08-10 12:22:45 ERROR TC_007_FillPermanentAddress:33 - Test Failedno such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='b6-Input_HouseNumber']"}
+  (Session info: chrome=127.0.6533.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [83c7d4a5d9b53af7c4e4b07da821481a, findElement {value=//input[@id='b6-Input_HouseNumber'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\91928\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:1962}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:1962/devtool..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 83c7d4a5d9b53af7c4e4b07da821481a
+2024-08-10 12:22:55 ERROR TC_008_FillAdditionalInfo:33 - Test Failedno such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='b6-Input_FatherFirstName']"}
+  (Session info: chrome=127.0.6533.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [83c7d4a5d9b53af7c4e4b07da821481a, findElement {value=//input[@id='b6-Input_FatherFirstName'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\91928\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:1962}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:1962/devtool..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 83c7d4a5d9b53af7c4e4b07da821481a
+2024-08-10 12:23:07 ERROR TC_009_EmploymentInformationTest:41 - Test Failed: Error communicating with the remote browser. It may have died.
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [83c7d4a5d9b53af7c4e4b07da821481a, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\91928\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:1962}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:1962/devtool..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 83c7d4a5d9b53af7c4e4b07da821481a
+2024-08-10 12:23:21 INFO  Utils:112 - [TestNG] Running:
+  E:\Automation Workspace\Onboarding\master.xml
+
+2024-08-10 12:23:24 INFO  TC_001_AccountRegistrationTest:16 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-08-10 12:23:50 INFO  TC_001_AccountRegistrationTest:24 - *** Mobile Number Verified Successfully
+2024-08-10 12:23:59 INFO  TC_001_AccountRegistrationTest:26 - *** Mobile Number Verified Successfully
+2024-08-10 12:24:01 INFO  TC_001_AccountRegistrationTest:35 - *** Page Title Verified Successfully
+2024-08-10 12:24:01 INFO  TC_001_AccountRegistrationTest:43 - ***** Finished TC_001_AccountRegistrationTest *****
+2024-08-10 12:24:18 INFO  TC_005_FillLoanRequirementDetails:14 -  Starting TC_004_FillLoanRequirementDetails 
+2024-08-10 12:24:34 INFO  TC_005_FillLoanRequirementDetails:36 -  Finished TC_004_FillLoanRequirementDetails 
+2024-08-10 12:24:47 ERROR TC_006_UplaodDocManually:34 - Test Failedno such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Verify Manually']"}
+  (Session info: chrome=127.0.6533.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5450d02e9e05d6f93734ef4e66f0a7df, findElement {using=xpath, value=//span[normalize-space()='Verify Manually']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\91928\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:2041}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:2041/devtool..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5450d02e9e05d6f93734ef4e66f0a7df
+2024-08-10 12:24:58 ERROR TC_007_FillPermanentAddress:33 - Test Failedno such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='b6-Input_HouseNumber']"}
+  (Session info: chrome=127.0.6533.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5450d02e9e05d6f93734ef4e66f0a7df, findElement {using=xpath, value=//input[@id='b6-Input_HouseNumber']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\91928\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:2041}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:2041/devtool..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5450d02e9e05d6f93734ef4e66f0a7df
+2024-08-10 12:25:08 ERROR TC_008_FillAdditionalInfo:33 - Test Failedno such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='b6-Input_FatherFirstName']"}
+  (Session info: chrome=127.0.6533.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5450d02e9e05d6f93734ef4e66f0a7df, findElement {using=xpath, value=//input[@id='b6-Input_FatherFirstName']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\91928\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:2041}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:2041/devtool..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5450d02e9e05d6f93734ef4e66f0a7df
+2024-08-10 12:25:18 ERROR TC_009_EmploymentInformationTest:41 - Test Failed: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='col-6 col-md-4 col-lg-6 col-xl-4 mb-3']//div[@class='radio']"}
+  (Session info: chrome=127.0.6533.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5450d02e9e05d6f93734ef4e66f0a7df, findElement {using=xpath, value=//div[@class='col-6 col-md-4 col-lg-6 col-xl-4 mb-3']//div[@class='radio']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\91928\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:2041}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:2041/devtool..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5450d02e9e05d6f93734ef4e66f0a7df
+2024-08-10 12:28:42 INFO  Utils:112 - [TestNG] Running:
+  E:\Automation Workspace\Onboarding\master.xml
+
+2024-08-10 12:28:44 INFO  TC_001_AccountRegistrationTest:16 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-08-10 12:29:09 INFO  TC_001_AccountRegistrationTest:24 - *** Mobile Number Verified Successfully
+2024-08-10 12:29:18 INFO  TC_001_AccountRegistrationTest:26 - *** Mobile Number Verified Successfully
+2024-08-10 12:29:20 INFO  TC_001_AccountRegistrationTest:35 - *** Page Title Verified Successfully
+2024-08-10 12:29:20 INFO  TC_001_AccountRegistrationTest:43 - ***** Finished TC_001_AccountRegistrationTest *****
+2024-08-10 12:29:37 INFO  TC_005_FillLoanRequirementDetails:14 -  Starting TC_004_FillLoanRequirementDetails 
+2024-08-10 12:29:54 INFO  TC_005_FillLoanRequirementDetails:36 -  Finished TC_004_FillLoanRequirementDetails 
+2024-08-10 12:30:18 ERROR TC_006_UplaodDocManually:34 - Test Failedno such element: Unable to locate element: {"method":"xpath","selector":"//select[@id='Dropdown2']"}
+  (Session info: chrome=127.0.6533.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [533618f3dee21dd6d21f3423e5594bdb, findElement {using=xpath, value=//select[@id='Dropdown2']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\91928\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:2158}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:2158/devtool..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 533618f3dee21dd6d21f3423e5594bdb
+2024-08-10 12:30:28 ERROR TC_007_FillPermanentAddress:33 - Test Failedno such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='b6-Input_HouseNumber']"}
+  (Session info: chrome=127.0.6533.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [533618f3dee21dd6d21f3423e5594bdb, findElement {using=xpath, value=//input[@id='b6-Input_HouseNumber']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\91928\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:2158}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:2158/devtool..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 533618f3dee21dd6d21f3423e5594bdb
+2024-08-10 12:30:38 ERROR TC_008_FillAdditionalInfo:33 - Test Failedno such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='b6-Input_FatherFirstName']"}
+  (Session info: chrome=127.0.6533.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [533618f3dee21dd6d21f3423e5594bdb, findElement {using=xpath, value=//input[@id='b6-Input_FatherFirstName']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\91928\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:2158}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:2158/devtool..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 533618f3dee21dd6d21f3423e5594bdb
+2024-08-10 12:30:49 ERROR TC_009_EmploymentInformationTest:41 - Test Failed: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='col-6 col-md-4 col-lg-6 col-xl-4 mb-3']//div[@class='radio']"}
+  (Session info: chrome=127.0.6533.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [533618f3dee21dd6d21f3423e5594bdb, findElement {using=xpath, value=//div[@class='col-6 col-md-4 col-lg-6 col-xl-4 mb-3']//div[@class='radio']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\91928\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:2158}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:2158/devtool..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 533618f3dee21dd6d21f3423e5594bdb
+2024-08-10 12:30:58 INFO  Utils:112 - [TestNG] Running:
+  E:\Automation Workspace\Onboarding\master.xml
+
+2024-08-10 12:31:00 INFO  TC_001_AccountRegistrationTest:16 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-08-10 12:31:27 INFO  TC_001_AccountRegistrationTest:24 - *** Mobile Number Verified Successfully
+2024-08-10 12:31:36 INFO  TC_001_AccountRegistrationTest:26 - *** Mobile Number Verified Successfully
+2024-08-10 12:31:38 INFO  TC_001_AccountRegistrationTest:35 - *** Page Title Verified Successfully
+2024-08-10 12:31:38 INFO  TC_001_AccountRegistrationTest:43 - ***** Finished TC_001_AccountRegistrationTest *****
+2024-08-10 12:31:56 INFO  TC_005_FillLoanRequirementDetails:14 -  Starting TC_004_FillLoanRequirementDetails 
+2024-08-10 12:32:12 INFO  TC_005_FillLoanRequirementDetails:36 -  Finished TC_004_FillLoanRequirementDetails 
+2024-08-10 12:33:04 ERROR TC_009_EmploymentInformationTest:41 - Test Failed: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='col-6 col-md-4 col-lg-6 col-xl-4 mb-3']//div[@class='radio']"}
+  (Session info: chrome=127.0.6533.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [002d30253760113725dcc4373a151d6e, findElement {value=//div[@class='col-6 col-md-4 col-lg-6 col-xl-4 mb-3']//div[@class='radio'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\91928\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:2249}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:2249/devtool..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 002d30253760113725dcc4373a151d6e
+2024-08-10 12:34:10 INFO  Utils:112 - [TestNG] Running:
+  E:\Automation Workspace\Onboarding\master.xml
+
+2024-08-10 12:34:15 INFO  TC_001_AccountRegistrationTest:16 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-08-10 12:34:40 INFO  TC_001_AccountRegistrationTest:24 - *** Mobile Number Verified Successfully
+2024-08-10 12:34:48 INFO  TC_001_AccountRegistrationTest:26 - *** Mobile Number Verified Successfully
+2024-08-10 12:34:51 INFO  TC_001_AccountRegistrationTest:35 - *** Page Title Verified Successfully
+2024-08-10 12:34:51 INFO  TC_001_AccountRegistrationTest:43 - ***** Finished TC_001_AccountRegistrationTest *****
+2024-08-10 12:35:09 INFO  TC_005_FillLoanRequirementDetails:14 -  Starting TC_004_FillLoanRequirementDetails 
+2024-08-10 12:35:25 INFO  TC_005_FillLoanRequirementDetails:36 -  Finished TC_004_FillLoanRequirementDetails 
+2024-08-13 16:03:25 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\91928\git\repository\Onboarding\master.xml
+
+2024-08-13 16:03:47 INFO  TC_001_AccountRegistrationTest:16 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-08-13 16:04:19 INFO  TC_001_AccountRegistrationTest:24 - *** Mobile Number Verified Successfully
+2024-08-13 16:04:28 INFO  TC_001_AccountRegistrationTest:26 - *** Mobile Number Verified Successfully
+2024-08-13 16:04:31 INFO  TC_001_AccountRegistrationTest:35 - *** Page Title Verified Successfully
+2024-08-13 16:04:31 INFO  TC_001_AccountRegistrationTest:43 - ***** Finished TC_001_AccountRegistrationTest *****
+2024-08-13 16:05:02 INFO  TC_005_FillLoanRequirementDetails:14 -  Starting TC_004_FillLoanRequirementDetails 
+2024-08-13 16:05:24 INFO  TC_005_FillLoanRequirementDetails:36 -  Finished TC_004_FillLoanRequirementDetails 
+2024-08-13 16:06:03 ERROR TC_007_FillPermanentAddress:33 - Test Failedno such element: Unable to locate element: {"method":"xpath","selector":"//div[normalize-space()='Self Owned']"}
+  (Session info: chrome=127.0.6533.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ff2a0f6be07bf34c4898822ed04a0b29, findElement {value=//div[normalize-space()='Self Owned'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\91928\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:5029}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:5029/devtool..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff2a0f6be07bf34c4898822ed04a0b29
+2024-08-13 16:06:13 ERROR TC_008_FillAdditionalInfo:33 - Test Failedno such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='b6-Input_FatherFirstName']"}
+  (Session info: chrome=127.0.6533.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ff2a0f6be07bf34c4898822ed04a0b29, findElement {value=//input[@id='b6-Input_FatherFirstName'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\91928\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:5029}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:5029/devtool..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff2a0f6be07bf34c4898822ed04a0b29
+2024-08-13 16:06:23 ERROR TC_009_EmploymentInformationTest:41 - Test Failed: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='col-6 col-md-4 col-lg-6 col-xl-4 mb-3']//div[@class='radio']"}
+  (Session info: chrome=127.0.6533.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ff2a0f6be07bf34c4898822ed04a0b29, findElement {value=//div[@class='col-6 col-md-4 col-lg-6 col-xl-4 mb-3']//div[@class='radio'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\91928\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:5029}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:5029/devtool..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff2a0f6be07bf34c4898822ed04a0b29

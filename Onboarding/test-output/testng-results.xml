@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="4" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-13T16:03:25 IST" name="Master Suite" finished-at="2024-08-13T16:06:24 IST" duration-ms="178355">
+    <groups>
+      <group name="Master">
+        <method signature="TC_005_FillLoanRequirementDetails.fillLoanInformation()[pri:0, instance:testCases.TC_005_FillLoanRequirementDetails@5fcacc0]" name="fillLoanInformation" class="testCases.TC_005_FillLoanRequirementDetails"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC_007_FillPermanentAddress.FillPermanentAddress()[pri:0, instance:testCases.TC_007_FillPermanentAddress@6d1d4d7]" name="FillPermanentAddress" class="testCases.TC_007_FillPermanentAddress"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC_001_AccountRegistrationTest.Verify_Account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@4602c2a9]" name="Verify_Account_Registration" class="testCases.TC_001_AccountRegistrationTest"/>
+        <method signature="TC_002_AccountRegistrationTest1.VerifyBasicDetails()[pri:0, instance:testCases.TC_002_AccountRegistrationTest1@69c79f09]" name="VerifyBasicDetails" class="testCases.TC_002_AccountRegistrationTest1"/>
+        <method signature="TC_006_UplaodDocManually.UploadDocManually()[pri:0, instance:testCases.TC_006_UplaodDocManually@533b266e]" name="UploadDocManually" class="testCases.TC_006_UplaodDocManually"/>
+        <method signature="TC_007_FillPermanentAddress.FillPermanentAddress()[pri:0, instance:testCases.TC_007_FillPermanentAddress@6d1d4d7]" name="FillPermanentAddress" class="testCases.TC_007_FillPermanentAddress"/>
+        <method signature="Tc_003_SetUsernamePassword.SetPassword()[pri:0, instance:testCases.Tc_003_SetUsernamePassword@1ca25c47]" name="SetPassword" class="testCases.Tc_003_SetUsernamePassword"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2024-08-13T16:03:25 IST" name="Test" finished-at="2024-08-13T16:06:24 IST" duration-ms="178355">
+      <class name="testCases.TC_005_FillLoanRequirementDetails">
+        <test-method is-config="true" signature="logger()[pri:0, instance:testCases.TC_005_FillLoanRequirementDetails@5fcacc0]" started-at="2024-08-13T16:05:02 IST" name="logger" finished-at="2024-08-13T16:05:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logger -->
+        <test-method signature="fillLoanInformation()[pri:0, instance:testCases.TC_005_FillLoanRequirementDetails@5fcacc0]" started-at="2024-08-13T16:05:02 IST" name="fillLoanInformation" finished-at="2024-08-13T16:05:24 IST" duration-ms="22158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillLoanInformation -->
+      </class> <!-- testCases.TC_005_FillLoanRequirementDetails -->
+      <class name="testCases.TC_001_AccountRegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistrationTest@4602c2a9]" started-at="2024-08-13T16:03:26 IST" name="setup" finished-at="2024-08-13T16:03:47 IST" duration-ms="21191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="logger()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@4602c2a9]" started-at="2024-08-13T16:03:47 IST" name="logger" finished-at="2024-08-13T16:03:47 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logger -->
+        <test-method signature="Verify_Account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@4602c2a9]" started-at="2024-08-13T16:03:47 IST" name="Verify_Account_Registration" finished-at="2024-08-13T16:04:31 IST" duration-ms="43865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Account_Registration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@4602c2a9]" started-at="2024-08-13T16:06:24 IST" name="tearDown" finished-at="2024-08-13T16:06:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_001_AccountRegistrationTest -->
+      <class name="testCases.TC_002_AccountRegistrationTest1">
+        <test-method is-config="true" signature="logger()[pri:0, instance:testCases.TC_002_AccountRegistrationTest1@69c79f09]" started-at="2024-08-13T16:04:31 IST" name="logger" finished-at="2024-08-13T16:04:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logger -->
+        <test-method signature="VerifyBasicDetails()[pri:0, instance:testCases.TC_002_AccountRegistrationTest1@69c79f09]" started-at="2024-08-13T16:04:31 IST" name="VerifyBasicDetails" finished-at="2024-08-13T16:04:48 IST" duration-ms="17531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyBasicDetails -->
+      </class> <!-- testCases.TC_002_AccountRegistrationTest1 -->
+      <class name="testCases.Tc_003_SetUsernamePassword">
+        <test-method is-config="true" signature="logger()[pri:0, instance:testCases.Tc_003_SetUsernamePassword@1ca25c47]" started-at="2024-08-13T16:04:48 IST" name="logger" finished-at="2024-08-13T16:04:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logger -->
+        <test-method signature="SetPassword()[pri:0, instance:testCases.Tc_003_SetUsernamePassword@1ca25c47]" started-at="2024-08-13T16:04:48 IST" name="SetPassword" finished-at="2024-08-13T16:05:02 IST" duration-ms="13538" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test Failed: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='title mb-1 h3-big']"}
+  (Session info: chrome=127.0.6533.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ff2a0f6be07bf34c4898822ed04a0b29, findElement {value=//span[@class='title mb-1 h3-big'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\91928\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:5029}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:5029/devtool..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff2a0f6be07bf34c4898822ed04a0b29]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test Failed: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='title mb-1 h3-big']"}
+  (Session info: chrome=127.0.6533.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ff2a0f6be07bf34c4898822ed04a0b29, findElement {value=//span[@class='title mb-1 h3-big'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\91928\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:5029}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:5029/devtool..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff2a0f6be07bf34c4898822ed04a0b29
+at org.testng.Assert.fail(Assert.java:111)
+at testCases.Tc_003_SetUsernamePassword.SetPassword(Tc_003_SetUsernamePassword.java:29)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetPassword -->
+      </class> <!-- testCases.Tc_003_SetUsernamePassword -->
+      <class name="testCases.TC_009_EmploymentInformationTest">
+        <test-method is-config="true" signature="logger()[pri:0, instance:testCases.TC_009_EmploymentInformationTest@6865c751]" started-at="2024-08-13T16:06:13 IST" name="logger" finished-at="2024-08-13T16:06:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logger -->
+        <test-method signature="FillEmploymentInformation()[pri:0, instance:testCases.TC_009_EmploymentInformationTest@6865c751]" started-at="2024-08-13T16:06:13 IST" name="FillEmploymentInformation" finished-at="2024-08-13T16:06:23 IST" duration-ms="10067" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test Failed: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='col-6 col-md-4 col-lg-6 col-xl-4 mb-3']//div[@class='radio']"}
+  (Session info: chrome=127.0.6533.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ff2a0f6be07bf34c4898822ed04a0b29, findElement {value=//div[@class='col-6 col-md-4 col-lg-6 col-xl-4 mb-3']//div[@class='radio'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\91928\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:5029}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:5029/devtool..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff2a0f6be07bf34c4898822ed04a0b29]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test Failed: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='col-6 col-md-4 col-lg-6 col-xl-4 mb-3']//div[@class='radio']"}
+  (Session info: chrome=127.0.6533.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ff2a0f6be07bf34c4898822ed04a0b29, findElement {value=//div[@class='col-6 col-md-4 col-lg-6 col-xl-4 mb-3']//div[@class='radio'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\91928\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:5029}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:5029/devtool..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff2a0f6be07bf34c4898822ed04a0b29
+at org.testng.Assert.fail(Assert.java:111)
+at testCases.TC_009_EmploymentInformationTest.FillEmploymentInformation(TC_009_EmploymentInformationTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillEmploymentInformation -->
+      </class> <!-- testCases.TC_009_EmploymentInformationTest -->
+      <class name="testCases.TC_007_FillPermanentAddress">
+        <test-method is-config="true" signature="logger()[pri:0, instance:testCases.TC_007_FillPermanentAddress@6d1d4d7]" started-at="2024-08-13T16:05:45 IST" name="logger" finished-at="2024-08-13T16:05:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logger -->
+        <test-method signature="FillPermanentAddress()[pri:0, instance:testCases.TC_007_FillPermanentAddress@6d1d4d7]" started-at="2024-08-13T16:05:45 IST" name="FillPermanentAddress" finished-at="2024-08-13T16:06:03 IST" duration-ms="18071" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test Failedno such element: Unable to locate element: {"method":"xpath","selector":"//div[normalize-space()='Self Owned']"}
+  (Session info: chrome=127.0.6533.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ff2a0f6be07bf34c4898822ed04a0b29, findElement {value=//div[normalize-space()='Self Owned'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\91928\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:5029}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:5029/devtool..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff2a0f6be07bf34c4898822ed04a0b29]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test Failedno such element: Unable to locate element: {"method":"xpath","selector":"//div[normalize-space()='Self Owned']"}
+  (Session info: chrome=127.0.6533.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ff2a0f6be07bf34c4898822ed04a0b29, findElement {value=//div[normalize-space()='Self Owned'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\91928\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:5029}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:5029/devtool..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff2a0f6be07bf34c4898822ed04a0b29
+at org.testng.Assert.fail(Assert.java:111)
+at testCases.TC_007_FillPermanentAddress.FillPermanentAddress(TC_007_FillPermanentAddress.java:34)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillPermanentAddress -->
+      </class> <!-- testCases.TC_007_FillPermanentAddress -->
+      <class name="testCases.TC_006_UplaodDocManually">
+        <test-method is-config="true" signature="logger()[pri:0, instance:testCases.TC_006_UplaodDocManually@533b266e]" started-at="2024-08-13T16:05:24 IST" name="logger" finished-at="2024-08-13T16:05:24 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logger -->
+        <test-method signature="UploadDocManually()[pri:0, instance:testCases.TC_006_UplaodDocManually@533b266e]" started-at="2024-08-13T16:05:24 IST" name="UploadDocManually" finished-at="2024-08-13T16:05:45 IST" duration-ms="20521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UploadDocManually -->
+      </class> <!-- testCases.TC_006_UplaodDocManually -->
+      <class name="testCases.TC_008_FillAdditionalInfo">
+        <test-method is-config="true" signature="logger()[pri:0, instance:testCases.TC_008_FillAdditionalInfo@89ff02e]" started-at="2024-08-13T16:06:03 IST" name="logger" finished-at="2024-08-13T16:06:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logger -->
+        <test-method signature="FillAdditionalInfo()[pri:0, instance:testCases.TC_008_FillAdditionalInfo@89ff02e]" started-at="2024-08-13T16:06:03 IST" name="FillAdditionalInfo" finished-at="2024-08-13T16:06:13 IST" duration-ms="10051" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test Failedno such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='b6-Input_FatherFirstName']"}
+  (Session info: chrome=127.0.6533.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ff2a0f6be07bf34c4898822ed04a0b29, findElement {value=//input[@id='b6-Input_FatherFirstName'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\91928\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:5029}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:5029/devtool..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff2a0f6be07bf34c4898822ed04a0b29]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test Failedno such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='b6-Input_FatherFirstName']"}
+  (Session info: chrome=127.0.6533.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ff2a0f6be07bf34c4898822ed04a0b29, findElement {value=//input[@id='b6-Input_FatherFirstName'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\91928\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:5029}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:5029/devtool..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff2a0f6be07bf34c4898822ed04a0b29
+at org.testng.Assert.fail(Assert.java:111)
+at testCases.TC_008_FillAdditionalInfo.FillAdditionalInfo(TC_008_FillAdditionalInfo.java:34)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillAdditionalInfo -->
+      </class> <!-- testCases.TC_008_FillAdditionalInfo -->
+    </test> <!-- Test -->
+  </suite> <!-- Master Suite -->
+</testng-results>

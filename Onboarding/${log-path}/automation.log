@@ -1,0 +1,86 @@
+2024-07-24 17:29:14 INFO  Utils:112 - [TestNG] Running:
+  E:\Automation Workspace\Onboarding\master.xml
+
+2024-07-24 17:31:04 INFO  Utils:112 - [TestNG] Running:
+  E:\Automation Workspace\Onboarding\master.xml
+
+2024-07-24 17:31:10 INFO  TC_001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-07-24 17:31:25 ERROR TC_001_AccountRegistrationTest:28 - Test Failed: no such element: Unable to locate element: {"method":"xpath","selector":"(//a[normalize-space()='Skip'])[1]"}
+  (Session info: chrome=126.0.6478.183)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1cba1ee1f731da54b12ff568dad88b1f, findElement {using=xpath, value=(//a[normalize-space()='Skip'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.183, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\91928\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:2940}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:2940/devtool..., se:cdpVersion: 126.0.6478.183, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1cba1ee1f731da54b12ff568dad88b1f
+2024-07-24 17:31:25 INFO  TC_001_AccountRegistrationTest:33 - ***** Finished TC_001_AccountRegistrationTest *****
+2024-07-24 17:33:43 INFO  Utils:112 - [TestNG] Running:
+  E:\Automation Workspace\Onboarding\master.xml
+
+2024-07-24 17:33:47 INFO  TC_001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-07-24 17:34:02 ERROR TC_001_AccountRegistrationTest:31 - Test Failed: no such element: Unable to locate element: {"method":"xpath","selector":"(//a[normalize-space()='Skip'])[1]"}
+  (Session info: chrome=126.0.6478.183)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d3ec86d94c12276c3b8b6a001d971b08, findElement {using=xpath, value=(//a[normalize-space()='Skip'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.183, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\91928\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:6869}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:6869/devtool..., se:cdpVersion: 126.0.6478.183, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d3ec86d94c12276c3b8b6a001d971b08
+2024-07-24 17:34:02 INFO  TC_001_AccountRegistrationTest:36 - ***** Finished TC_001_AccountRegistrationTest *****
+2024-07-24 17:36:19 INFO  Utils:112 - [TestNG] Running:
+  E:\Automation Workspace\Onboarding\master.xml
+
+2024-07-24 17:36:21 INFO  TC_001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-07-24 17:36:38 ERROR TC_001_AccountRegistrationTest:31 - Test Failed: no such element: Unable to locate element: {"method":"xpath","selector":"(//a[normalize-space()='Skip'])[1]"}
+  (Session info: chrome=126.0.6478.183)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bea93c184ab076d421bf7ecf0cde9bd0, findElement {using=xpath, value=(//a[normalize-space()='Skip'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.183, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\91928\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:13602}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:13602/devtoo..., se:cdpVersion: 126.0.6478.183, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bea93c184ab076d421bf7ecf0cde9bd0
+2024-07-24 17:36:38 INFO  TC_001_AccountRegistrationTest:36 - ***** Finished TC_001_AccountRegistrationTest *****
+2024-07-24 17:38:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2024-07-24 17:38:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-07-24 17:38:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-07-24 17:38:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-07-24 17:38:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-07-24 17:38:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-07-24 17:38:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-07-24 17:38:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-07-24 17:38:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+2024-07-24 17:38:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 8 ms.
+2024-07-24 17:38:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-07-24 17:38:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-07-24 17:38:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-07-24 17:38:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-07-24 17:38:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-07-24 17:38:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-07-24 17:38:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-07-24 17:38:23 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-07-24 17:38:24 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-07-24 17:38:24 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-07-24 17:38:24 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-07-24 17:38:24 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-07-24 17:38:24 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-07-24 17:38:24 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-07-24 17:38:24 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-07-24 17:38:24 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-07-24 17:38:24 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-07-24 17:38:24 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-07-24 17:38:24 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2024-07-24 17:38:24 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2024-07-24 17:38:24 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\91928\AppData\Local\Temp\testng-eclipse--1906076700\testng-customsuite.xml
+
+2024-07-24 17:38:24 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 2 ms.
+2024-07-24 17:38:24 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@6d511b5f: 25 ms
+2024-07-24 17:38:24 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@54ec8cc9: 38 ms
+2024-07-24 17:38:24 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@781e7326: 9 ms
+2024-07-24 17:38:24 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@3caa4757: 10 ms
+2024-07-24 17:38:24 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@58dea0a5: 6 ms
+2024-07-24 17:38:24 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@320e400: 4 ms
+2024-07-24 17:38:24 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@5167268: 0 ms
